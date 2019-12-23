@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>二级菜单</title>
+	<style type="text/css">
+		.ul1{
+			list-style: none; /* 一级去掉列表符号 */
+		}
+		.ul1>li{
+			width:100px;
+			float: left;
+		}
+		.ul1>li>div{
+			font-weight: bold; /* 加粗 */
+			height: 40px;  /* 高度40px */
+			line-height: 40px; /* 行高40px */
+			font-family: "微软雅黑";  /* 字体微软雅黑  */
+			font-size:26px;  /* 字体大小26px  */
+		}
+		.ul1 ul a{
+			text-decoration: none;
+			text-indent: 2em; /* 2个字的首行缩进 */
+			font-style:italic; /* 斜体显示  */
+		}
+		.ul1 ul{
+			display: none; /* 不可见  隐藏 */
+		}
+		.ul1>li:hover ul{
+			display: block;  /* 块显示 */
+		}
+	</style>
+</head>
+<body>
+	<ul class="ul1">
+	    <li>
+	    	<div>一</div>
+	        <ul>
+	            <li><a href="#" target="blank">2</a></li>
+	            <li><a href="#" target="blank">3</a></li>
+	            <li><a href="#" target="blank">4</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<div>二</div>
+	    	<ul>
+	            <li><a href="#" target="blank">2</a></li>
+	            <li><a href="#" target="blank">3</a></li>
+	            <li><a href="#" target="blank">4</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<div>三</div>
+	    	<ul>
+	            <li><a href="#" target="blank">2</a></li>
+	            <li><a href="#" target="blank">3</a></li>
+	            <li><a href="#" target="blank">4</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<div>四</div>
+	    	<ul>
+	            <li><a href="#" target="blank">2</a></li>
+	            <li><a href="#" target="blank">3</a></li>
+	            <li><a href="#" target="blank">4</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<div>五</div>
+	    	<ul>
+	            <li><a href="#" target="blank">2</a></li>
+	            <li><a href="#" target="blank">3</a></li>
+	            <li><a href="#" target="blank">4</a></li>
+	        </ul>
+	    </li>
+	</ul>
+</body>
+</html>

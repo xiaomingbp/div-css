@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+			title标签是文档的标题（唯一一个在浏览器里显示内容的标签，也是唯一一个必须在头部里写的标签）
+			style标签是样式标签（内部样式）
+			link标签链接外部的css文件（文件里是写css样式的）
+			meta标签是元信息
+		-->
+		<title>第一个web</title>
+		<style type="text/css">
+			/* 内嵌样式 内部样式*/
+			.abc{
+				border:1px solid red;
+				height:100px;
+				width:100px;
+			}
+			@import url(style.css)  /* 这个导入方式只能在css里写 */
+		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8"><!--  gb2312 gbk -->
+	</head>
+	<body>
+		<!-- 行间样式 style="padding:100px;"-->
+		<div class="abc" style="padding:100px;"></div>
+
+	</body>
+</html>

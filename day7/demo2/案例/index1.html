@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin:0;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.wrap{
+
+			width:300px;
+			height:275px;
+			border:1px solid #d9e0ee;
+			border-top:4px solid #ff8400;
+		}
+		.wrap_title{
+			height:43px;
+			line-height: 43px;
+			text-indent:12px;
+			border-bottom:1px solid #e3e6ed;
+		}
+		.more{
+			width:68px;
+			height: 42px;
+			padding: 0;
+			float: right;
+			background-color: #f9f9f9;
+			border:1px solid #e3e6ed;
+			outline: none;
+		}
+		.wrap_con_top img{
+			width:131px;
+			height:113px;
+			float: left;
+		}
+		.list{
+			list-style-type:disc;  /* none 无标记  disc 默认。标记是实心圆。 circle 标记是空心圆。 square */ 
+			float: left;
+			font-size: 14px;
+			margin:0;
+			padding: 0;
+			width:131px;
+		}
+		.wrap_con{
+			padding:10px;
+		}
+		.list li{
+			height:30px;
+			line-height: 30px;
+		}
+		.list li:before{
+			content:"";
+			display: inline-block;
+			width:4px;
+			height:5px;
+			background-color: #ff8400;
+			margin-left:15px;
+			margin-right:9px;
+		}
+		.list2{
+			list-style-type:disc;  /* none 无标记  disc 默认。标记是实心圆。 circle 标记是空心圆。 square */ 
+			float: left;
+			font-size: 14px;
+			margin:0;
+			padding: 0;
+			width:300px;
+		}
+		.list2 li{
+			height:30px;
+			line-height: 30px;
+		}
+		.list2 li:before{
+			content:"";
+			display: inline-block;
+			width:4px;
+			height:5px;
+			background-color: #ff8400;
+			margin-right:9px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="wrap_title">
+			独家体坛
+			<input class="more" type="button" value="更多>>">
+		</div>
+		<div class="wrap_con">
+			<div class="wrap_con_top">
+				<img src="1.jpg">
+				<ul class="list">
+					<li>aaaaaaaaa</li>
+					<li>aaaaaaaa</li>
+					<li>aaaaaaaa</li>
+					<li>aaaaaaaaa</li>
+				</ul>
+			</div>
+			<ul class="list2">
+				<li>aaaaasdfasdfasdfaaaaa</li>
+				<li>aaaaaasasdfasdaaa</li>
+				<li>aaaafasdfasdfaaa</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

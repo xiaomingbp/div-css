@@ -1,0 +1,25 @@
+font-style:normal|italic|oblique;    默认值|倾斜|倾斜
+
+border-collapse:collapse     表格里用 合并边框
+
+transparent 透明颜色
+
+padding不能有负值  
+
+visibility:hidden|visible;  隐藏|显示 （占位）
+
+display:none|block|inline-block|inline;
+
+cursor:pointer|move|text; 鼠标   
+
+background:linear-gradient(方向,颜色1,颜色2,.......);
+
+<div title=""></div>   title是提示
+<img src="" alt="">
+
+<input type="text" placeholder="" maxlength="">
+placeholder 输入提示
+required 必填
+maxlength 最大长度
+
+position:relative|absolute|fiexd;

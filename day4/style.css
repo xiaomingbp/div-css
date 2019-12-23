@@ -1,0 +1,17 @@
+html,body{
+	padding:0; /* 内边距0 */
+	margin:0; /* 外边距0 */
+}
+.box > ul > li{
+	width:100px;
+	float:left; /* 左浮动    float:left|right  左浮动|右浮动       */
+}
+.box > ul ul{
+	display: none;  /* 隐藏 */
+}
+ul{
+	list-style: none; /* 列表样式 */
+}
+.box ul{
+
+}

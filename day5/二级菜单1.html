@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- 
+		在ul列表内建立li元素并清除默认样式
+		让所有li元素左浮动并清除浮动 
+	-->
+	<style type="text/css">
+		a{
+			text-decoration: none;  /* 去掉文本修饰 */
+		}
+		.clearfix li{
+			float: left; /* 左浮动 */
+			list-style: none; /* 去掉列表默认样式 */
+			width:100px;
+			height:40px;
+			background-color: blue;
+			text-align: center; /* 文本水平居中 */
+			line-height: 40px; /* 设置行高 */	
+		}
+		.clearfix li a{
+			color:#ffffff;   /* 文本颜色 */
+		}
+		.clearfix li:hover{
+			background-color: red; /* 背景颜色 */
+		}
+	</style>
+</head>
+<body>
+	<ul class="clearfix">
+	    <li><a href="#">1</a></li>
+	    <li><a href="#">2</a></li>
+	    <li><a href="#">3</a></li>
+	    <li><a href="#">4</a></li>
+	    <li><a href="#">5</a></li>
+	</ul>
+</body>
+</html>

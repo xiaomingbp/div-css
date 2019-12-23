@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font: 12px/1.5 "Microsoft Yahei";
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.clear_fix:before,
+.clear_fix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+
+.dm {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toolbar_top {
+	/*height:30px;*/
+	line-height: 30px;
+	background-color: #f5f5f5;
+}
+
+.toolbar_left a {
+	margin-left: 25px;
+	color: red;
+}
+
+.toolbar_left {
+	float: left;
+}
+
+.toolbar_right {
+	float: right;
+}
+
+.toolbar_right a {
+	margin: 13px;
+}
+
+.toolbar_right a.active {
+	color: #e73190;
+}
+
+.login {
+	height: 90px;
+	line-height: 90px;
+}
+
+.icon_login {
+	vertical-align: middle;
+	margin-right:15px;
+}
+
+.xiala {
+	display: inline-block;
+	height: 5px;
+	width: 8px;
+	background-image: url(../images/xiala_08_03.jpg);
+	vertical-align: middle;
+	margin-left:8px;
+}
+.toolbar_con{
+	font-size: 16px;
+}
+

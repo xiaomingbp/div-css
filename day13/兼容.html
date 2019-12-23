@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			width:100px;
+			height: 100px !important;
+			/*background-color: red;*/
+			background-color: red\9;
+
+			/*
+			
+				!important  IE不支持
+				_ IE6和以下的支持
+				* IE7和以下的支持
+				\9 IE8和以下的支持（IE都支持）
+
+
+				标准浏览器：
+					google，火狐，欧朋，苹果，IE浏览器（IE8以上，不包含IE8）
+
+				低版本浏览器
+					IE6 IE7 IE8
+
+			 */
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		
+	</div>
+
+	<!--[if IE]>
+		<p>你在非IE中将看不到我的身影</p>
+	<![endif]-->
+
+	<!--[if ! IE 7]>
+		<p>呵呵哈哈哈或或或或或或或或或或或或或或或或或或或</p>
+	<![endif]-->
+
+	
+</body>
+</html>

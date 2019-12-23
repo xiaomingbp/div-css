@@ -1,0 +1,144 @@
+选择器
+	2、元素的内容之前插入新内容
+		:before{
+			content:"b"
+		}
+
+	3、元素的内容之后插入新内容
+		:after{
+			content:"b"
+		}
+
+
+	4、选择第一个子元素的选择器
+		:first-child{
+
+		}
+	5、选择最后一个子元素的选择器
+		:last-child{
+
+		}
+	6、选择器没有内容的元素的选择器
+		:empty{
+
+		}
+	7、选择复选框的选择器
+		input[type=checkbox]{
+
+		}
+样式
+	8、清除浮动的样式
+		clear:left|right|both; 
+
+	9、去掉列表的项目图标的样式
+		list-style:none;
+		list-style-type:none;
+
+	10、给元素设置透明背景颜色
+		background-color: 
+			transparent 透明色
+			rgba(0,0,0,0.8);
+			#00000088;
+
+	11、去掉下划线的样式
+		text-decoration:none;
+
+	12、元素的设置为圆的样式
+		border-radius:50%;
+
+	13、文本居中的样式（水平和垂直）
+		text-align:center;
+		line-height:?px;
+
+	14、背景图片不平铺的样式
+		background-repeat:no-repeat;
+						repeat-x;
+						repeat-y;
+	15、背景图片的定位样式
+		background-position:10px 20px;
+			left right top bottom center
+
+			background-position:top left;
+			background-position:top center;
+			background-position:right center;
+
+	16、设置左边和下边的边框的样式
+		border-left:1px solid red;
+		border-bottom:1px soli red;
+
+		border-width:0 0 1px 1px;
+		border-style:solid;
+		border-color:red;
+
+
+	17、设置左外边距和上外边距
+		margin-top:
+		margin-left:
+
+		margin:10px 0px 0px 10px;
+
+操作
+	18、用div做作2行3列的表格
+
+		<div class="hang">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="hang">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+
+		.hang{
+			overflow:hidden;
+		}
+		.hang>div{
+			float:left;
+		}
+
+
+
+	19、给span标签设置高和宽
+
+		display:none; /* 隐藏 */
+		display:block;  /* 显示 块*/
+
+		display:inline-block; /* 显示  行块*/
+		display:inline; /* 显示  行内 */
+
+	20、滑过div.box时将隐藏的div.box_child元素显示出来
+
+
+
+	21、将input固定在div的右上角
+
+居中
+	文本居中(文本、行内)
+
+		text-align:center;
+		line-height:heightpx;
+
+	块标签
+
+		外边界
+			水平居中
+				margin-left:auto;
+				margin-right:auto;
+
+			垂直居中
+				margin-top:hpx;
+
+		定位
+
+			水平居中
+				父标签 position:relative;
+
+				要居中的标签
+				position:absolute;
+				left:50%;
+				margin-left:-width/2 px;
+
+

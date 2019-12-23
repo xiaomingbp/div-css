@@ -1,0 +1,4 @@
+圆角
+	border-radius:
+阴影
+	box-shadow:1px 1px 1px 1px red inset;

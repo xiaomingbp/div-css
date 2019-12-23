@@ -1,0 +1,99 @@
+盒子模型
+
+	content（内容） padding（内距） margin（外距）border(边框)
+
+	标准盒子模型
+		盒子宽度 = width + padding + border
+	怪异盒子模型
+			低版本ie浏览器ie5.x  ie6
+
+		盒子宽度 = width
+
+		标准盒子模型：宽度=内容的宽度（content）+ border + padding + margin
+		低版本IE盒子模型：宽度=内容宽度（content+border+padding）+ margin
+	
+边框
+	border
+		border-width:1px 2px;   上下1px   左右2px
+		border-style:solid double;   
+		border-color:red green;
+
+
+	border-left
+	border-top
+	border-right
+	border-bottom
+
+	border-width
+	border-style
+	border-color
+
+
+
+
+内边距
+	padding
+		padding:10px;    四个边都有10px的距离
+		padding:(上下)10px (左右)20px;
+		padding:(上)10px (左右)20px (下)30px;
+		padding:(上)10px (右)20px (下)30px (左)40px;
+
+	padding-left
+	padding-top
+	padding-right
+	padding-bottom
+
+外边距（+合并）
+	margin
+		margin:10px;    四个边都有10px的距离
+		margin:(上下)10px (左右)20px;
+		margin:(上)10px (左右)20px (下)30px;
+		margin:(上)10px (右)20px (下)30px (左)40px;
+
+
+	margin-left
+	margin-top
+	margin-right
+	margin-bottom
+
+	合并现象
+
+字体
+	font-family  字体    font-family:'宋体'
+	font-size    大小    font-size:50px;    em
+
+		默认字体大小  16px
+			16px = 1em;    1em一个字的大小
+			默认最小12px
+
+	font-weight   加粗        font-weight:bold;  
+		normal默认     400 
+		bold 加粗      600 
+
+	text-indent   缩进
+	word-spacing  词间距
+	letter-spacing 字符（母）边距
+	text-transform
+		•none 默认 
+		•uppercase  转大写
+		•lowercase  转小写
+		•capitalize  首字母大写
+
+	text-decoration 有 5 个值：
+		•none
+		•underline 下划线
+		•overline 上划线
+		•line-through 中间线（贯穿线）
+
+
+背景
+	background
+	background-color
+	background-image
+	background-position
+	background-size
+	background-repeat
+
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		[class]{ /* 有属性 class */
+			width:100px;
+			height:100px;
+			background-color: red;
+		}
+		[class='abc']{  /* 属性class的值是abc  */
+			border:1px solid blue;
+		}
+		[class*='e']{   /* 属性class的值里有e   */
+			border-bottom:5px solid yellow;
+		}
+		[class^='a']{    /* 属性class的值是a开头  */
+			border-left:5px solid #000;
+		}
+		[class$='f']{   /* 属性class的值是f结尾  */
+						
+		}
+	</style>
+</head>
+<body>
+	<div class="abc"></div>
+	<div class="edf"></div>
+	<div class="e"></div>
+</body>
+</html>

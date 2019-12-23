@@ -1,0 +1,134 @@
+标签
+	文档标题
+		<title></title>
+	元信息
+		文档编码
+			<meta charset="utf-8">
+		文档关键字
+			<meta name="keyword" content="关键字，关键字，关键字"
+		文档描述
+			<meta name="description" content="描述">
+	链接外部样式
+		<link rel="stylesheet" href="外部文件的位置地址">
+		文件位置属性 href
+	样式标签
+		<style></style>
+	标题
+		<h1></h1>
+		...
+		<h6></h6>
+	段落
+		<p></p>
+	超链接（链接）
+		<a href="" target="blank|selft|top|parent"></a>
+	图片
+		<img src="图片的地址">
+		源属性src
+	列表
+		<ul></ul>
+		<ol></ol>
+		<dl></dl>
+		<li></li>
+		<dd></dd>
+		<dt></dt>
+
+	表格
+		表格
+		<table></table>
+		<thead></thead>
+		<tbody></tbody>
+		<tr></tr>
+		<td></td>
+			合并单元格
+	表单
+		<form action="" method="get|post" target=""></form>
+	表单元素
+		文本框
+			<input type="text">
+		密码框
+			<input type="password">
+		文件域
+			<input type="file">
+		单选框
+			<input type="radio">
+		复选框
+			<input type="checkbox">
+		普通按钮
+			<input type="button">
+		提交按钮
+			<input type="submit">
+		重置按钮
+			<input type="reset">
+		颜色
+			<input type="color">
+		日期
+			<input type="date">
+		数字	
+			<input type="number">
+		地址
+			<input type="url">
+		电话
+			<input type="tel">
+	关联标签
+		<label></label>
+
+实体符号
+	&copy;
+	&reg;
+	&lt;
+	&gt;
+	&quot;
+	&nbsp;
+	&emsp;
+
+基本选择器
+	id选择器
+		#id值
+	类选择器
+		.类名
+	标签名选择器
+		标签名
+
+
+伪类选择器
+	hover 鼠标滑过（移动到上边）
+	visited 访问后
+	link  访问前
+	active 点击时
+
+关系选择器
+	后代选择器
+		空格表示后代
+		.div1 .div2{}   类名div1里的所有的类名为div2的标签
+	子元素选择器
+		> 表示子
+		.div1 > .div2{}   类名div1里的所有的类名为div2的标签
+	分组选择器
+		用,号隔开多个选择器
+	兄弟选择器
+		.div1 + div{}   类名为div1的标签的下面的第一个兄弟标签
+		.div1 ~ div{}   类名为div1的标签的下面的所有兄弟标签
+	全局选择器（通配符）
+
+样式
+	高度
+	宽度
+	边框
+	背景
+
+选择器的优先级
+	!important > 1000   不是选择器
+	行间样式 1000   不是选择器
+	id选择器100
+	类选择器10
+	属性选择器10
+	标签名选择器1
+	通配符 0
+
+
+
+	优先级顺序
+		!important > 行间样式 > id选择器 > 类选择器 > 标签选择器 > 通配符
+
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		ul,li{
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+		.tab{
+			overflow: hidden;
+		}
+		.tab>li{
+			border-left:1px solid #888;
+			border-top:2px solid blue;
+			float: left;
+			padding:5px 15px;
+			border-bottom:1px solid #888;
+		}
+		.tab>li:last-child{
+			border-right:1px solid #888;
+		}
+		.tab>li.active,.tab>li:hover{
+			border-bottom:0;
+			border-top-color:orange;
+		}
+		.car{
+			overflow: hidden;
+		}
+		.car>li{
+			float: left;
+			width:100px;
+			height:120px;
+			text-align: center;
+		}
+		.car>li>img{
+			width:90px;
+			height:90px;
+		}
+		.car>li>div{
+			height:30px;
+			line-height: 30px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<ul class="tab">
+		<li>热门车</li>
+		<li>豪华车</li>
+		<li class="active">商用车</li>
+		<li>小型车</li>
+	</ul>
+	<div></div>
+
+	<ul class="car">
+		<li>
+			<img src="3.jpg">
+			<div>adfasdfasdf</div>
+		</li>
+		<li>
+			<img src="3.jpg">
+			<div>adfasdfasdf</div>
+		</li>
+		<li>
+			<img src="3.jpg">
+			<div>adfasdfasdf</div>
+		</li>
+	</ul>
+</body>
+</html>

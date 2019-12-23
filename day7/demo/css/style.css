@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: "Microsft yahei";
+	font-size: 12px;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+/*****************************************************/
+.wrap{
+	height: 53px;
+	border-bottom:#aaa solid 1px;
+	overflow: hidden;
+}
+.wrap_con{
+	height: 53px;
+	width:1200px;
+	margin:0 auto;
+	/*background-color: red;*/
+}
+.wrap_con_title{
+	font-size: 14px;
+	color:#fff;
+	height:27px;
+	background-color: #74a8ed;
+	width:93px;
+	line-height: 27px;
+	text-align: center;  /* left左对齐  right右对齐 center居中  */
+	margin-top:13px;
+	border-radius: 3px;
+	float: left;
+}
+.sj{
+	display: inline-block;
+	border:5px solid #74a8ed;
+	border-color:#fff #fff #fff #74a8ed;
+	float: left;
+	margin-top:20px;
+}
+.wrap_con_list{
+
+}
+.wrap_con_list >li {
+	height:53px;
+	line-height: 53px;
+	float: left;
+	margin-left:16px;
+}
+.wrap_con_list >li>i{
+	margin-right:7px;
+}
+.jd{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background-image: url(../img/sprites.png);
+	vertical-align: middle; /* 垂直对齐 */
+	background-position: -26px 0;
+}
+.otjp{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background-image: url(../img/sprites.png);
+	vertical-align: middle; /* 垂直对齐 */
+	background-position: 0 0;
+}
+.zc{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background-image: url(../img/sprites.png);
+	vertical-align: middle; /* 垂直对齐 */
+	background-position: -130px 0;
+}
+
+/*****************************************************/

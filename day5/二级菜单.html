@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>二级菜单</title>
+	<style type="text/css">
+		ul,li{
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+		a{
+			text-decoration: none;
+		}
+		.ul1 ul{
+			display: none;
+			border:1px solid blue;
+		}
+		.ul1>li{
+			float: left;
+			width:100px;
+		}
+		.ul1>li>a{
+			display: inline-block;
+			width:98px;
+			height:40px;
+			line-height: 40px;
+			text-align: center;
+			background-color: blue;
+			color:#fff;
+			border-right:2px solid #000;
+		}
+		.ul1>li:last-child>a{
+			border:0;
+		}
+		.ul1>li:hover ul{
+
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<ul class="ul1 clearfix">
+	    <li>
+	    	<a href="#">一</a>
+	        <ul class="clearfix">
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<a href="#">二</a>
+	    	<ul class="clearfix">
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<a href="#">三</a>
+	    	<ul class="clearfix">
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<a href="#">四</a>
+	    	<ul class="clearfix">
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	        </ul>
+	    </li>
+	    <li>
+	    	<a href="#">五</a>
+	    	<ul class="clearfix">
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	        </ul>
+	    </li>
+	</ul>
+</body>
+</html>

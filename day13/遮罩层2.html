@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			width:300px;
+			height:300px;
+			border:1px solid #888;
+			position: relative;
+		}
+		.box>img{
+			width:100%;
+			height:100%;
+			
+		}
+		.box .zhezhao{
+			width:300px;
+			height:50px;
+			background-color: rgb(0,0,0);
+			position: absolute;
+			
+			left:0;
+			bottom:0;
+			display: none;
+
+			line-height: 50px;
+			text-align: center;
+			color:#fff;
+
+			opacity: 0.8;
+		}
+		.box:hover .zhezhao{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="img/4.jpg">
+		<div class="zhezhao">郁金香</div>
+	</div>
+
+</body>
+</html>
